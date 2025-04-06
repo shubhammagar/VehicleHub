@@ -1,0 +1,5 @@
+<div class="card">
+    <img [src]="model.imageUrl" alt="{{model.name}}" />
+    <h2>{{ model.name }}</h2>
+    <p>{{ model.description }}</p>
+    <a [routerLink]="['/model', model.id]">View Details</a>
