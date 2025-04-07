@@ -32,4 +32,6 @@ export interface VehicleModel {
     id: number;
     name: string;
     description: string;
+    mediaUrl: string;
+    mediaType: string;
   }
